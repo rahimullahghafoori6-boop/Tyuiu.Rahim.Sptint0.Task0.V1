@@ -15,7 +15,7 @@ namespace Tyuiu.Rahim.Sprint0.Task2.V0.Test
             var res = DataService.GetMessage(name);
 
             //Вызываем класс Assert и метод AreEqual
-            Assert.AreEqual("Привет, a", res);
+            Assert.AreEqual("Привет, a", res); 
         }
     }
 }
